@@ -1,0 +1,15 @@
+# Build output
+.pio/
+tools/build/
+
+# Games and saves never belong in the repository
+roms_local/
+_attic/
+*.zip
+*.gb
+*.gbc
+*.nes
+*.a26
+*.bin
+*.sav
+

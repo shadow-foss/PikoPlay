@@ -1,0 +1,10 @@
+{
+  "name": "infones",
+  "version": "0.0.0-pikoplay",
+  "description": "InfoNES NES emulator core (from pico-infones, GPL-3.0), patched for PikoPlay (see PATCHES.md)",
+  "license": "GPL-3.0-only",
+  "build": {
+    "srcFilter": ["+<*.cpp>", "-<win32/>", "-<ppc2002/>", "-<ppc2003/>"],
+    "flags": ["-w", "-O2"]
+  }
+}
